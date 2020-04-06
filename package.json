@@ -1,0 +1,41 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizz0S/portfolio-website.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "summer rizzo",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Rizz0S/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/Rizz0S/portfolio-website#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.1",
+    "extract-css-chunks-webpack-plugin": "^4.7.4",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.3",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  }
+}

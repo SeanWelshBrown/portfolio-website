@@ -1,0 +1,11 @@
+.resume-pdf {
+    height:  90%;
+    width: 80%;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
