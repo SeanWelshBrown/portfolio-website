@@ -2,6 +2,13 @@
     overflow: auto;
 }
 
+.content-wrapper {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 100%;
+}
+
 .content {
     height: 100%;
     margin: 0 100px;

@@ -29,10 +29,10 @@ const TAB_INFO = {
 const Tab =  ({tabName, onClick}) => {
 
     return(
-        <div className={[styles[tabName], styles.tab].join(' ')} onClick={onClick}>
+        <button className={[styles[tabName], styles.tab].join(' ')} onClick={onClick}>
             <img src={TAB_INFO[tabName].icon} className={styles.icon}/>
             {TAB_INFO[tabName].title}
-        </div>
+        </button>
     )
 }
 

@@ -1,6 +1,18 @@
 body {
-   font-family: 'Noto Serif SC', serif;
    margin: 0;
+}
+
+* {
+    font-family: 'Noto Serif SC', serif;
+}
+
+body.keyboardAccessible *:focus {
+    outline: 3px solid rgb(160, 0, 75);
+    outline-offset: -2px;
+}
+
+body:not(.keyboardAccessible) *:focus {
+	outline: 0;
 }
 
 .app {
@@ -11,6 +23,25 @@ body {
     text-align: center;
     width: 100%;
     height: 100%;
+}
+
+
+.content-enter, .content-appear {
+    opacity: 0;
+}
+
+.content-enter-active, .content-appear-active {
+    opacity: 1;
+    transition: opacity 0.75s ease-in;
+}
+
+.content-exit {
+    opacity: 1;
+}
+
+.content-exit-active {
+    opacity: 0;
+    transition: opacity 0.75s ease-out;
 }
 
 

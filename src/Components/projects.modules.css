@@ -2,20 +2,50 @@
     justify-self: flex-start;
 }
 
-.project-wrapper {
+.content-enter, .content-appear {
+    opacity: 0;
+}
+
+.content-enter-active, .content-appear-active {
+    opacity: 1;
+    transition: opacity 0.75s ease-in;
+}
+
+.content-exit {
+    opacity: 1;
+}
+
+.content-exit-active {
+    opacity: 0;
+    transition: opacity 0.75s ease-out;
+}
+
+.content-wrapper {
     display: flex;
     flex: 1;
     align-items: center;
     height: 100%;
 }
 
+.project-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-icon {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
 .content {
     height: 100%;
     margin: 0 100px;
     flex: 1;
-    opacity: 0;
+    align-self: flex-start;
     overflow: auto;
-    animation: fade 2s ease-in-out forwards;
 }
 
 .project-name {

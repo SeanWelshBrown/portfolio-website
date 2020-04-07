@@ -22,7 +22,8 @@
   "homepage": "https://github.com/Rizz0S/portfolio-website#readme",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-transition-group": "^4.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
