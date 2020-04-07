@@ -34,8 +34,8 @@
 }
 
 .arrow-icon {
-    height: 30px;
-    width: 30px;
+    height: 3.5vmin;
+    width: auto;
     margin: 0 5px;
     cursor: pointer;
 }
@@ -49,25 +49,26 @@
 }
 
 .project-name {
-    font-size: 32px;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .logo {
-    height: 45px;
-    width: 45px;
+    height: 5rem;
+    width: auto;
     margin: 0 10px;
 }
 
 .subhead {
-    font-size: 16px;
+    /* font-size: 1em; */
     font-style: italic;
 }
 
 .links {
     display: flex;
+    font-size: 0.75rem;
     justify-content: space-evenly;
     margin-bottom: 5px;
 }

@@ -12,13 +12,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1em;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 .icon {
-    height: 35px;
-    width: 35px;
+    height: 5vmin;
+    width: 5vmin;
     margin: 0 auto;
 }
 
