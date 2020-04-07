@@ -47,7 +47,7 @@ module.exports = {
         ]
     },
     {
-      test: /\.(png|jpe?g|gif|pdf)$/i,
+      test: /\.(png|jpe?g|gif|pdf|ico)$/i,
       use: [
         {
           loader: 'file-loader',
@@ -61,7 +61,8 @@ module.exports = {
   // add a custom index.html as the template
   plugins: [
       new HtmlWebpackPlugin({ 
-          template: path.resolve(__dirname, 'src', 'index.html') 
+          template: path.resolve(__dirname, 'src', 'index.html'),
+          favicon: path.resolve(__dirname, 'src/static/favicon.png')
       }),
       new ExtractCssChunks({
         filename: '[name].css'
