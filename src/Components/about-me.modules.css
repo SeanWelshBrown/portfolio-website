@@ -11,7 +11,7 @@
 
 .content {
     height: 100%;
-    margin: 0 100px;
+    margin: 0 5rem;
     display: flex;
     flex-direction: column;
 }
@@ -40,4 +40,10 @@
     margin: auto;
     border: 1px solid rgb(233, 191, 191);
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        margin: 0 2rem;
+    }
 }

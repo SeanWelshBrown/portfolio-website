@@ -84,7 +84,7 @@ export default function Projects (props) {
     }
     return(
         <div className={styles['project-wrapper']}>
-            <button onClick={() => handleArrowClick('back')}><img src={leftArrowIcon} className={styles['arrow-icon']} alt="previous project"/></button>
+            <button onClick={() => handleArrowClick('back')} className={styles['nav-btn-previous']} ><img src={leftArrowIcon} className={styles['arrow-icon']} alt="previous project"/></button>
                 <SwitchTransition>
                 <CSSTransition
                 in={true} appear={true} unmountOnExit={true} timeout={750}
@@ -106,7 +106,7 @@ export default function Projects (props) {
                     </div>
                 </CSSTransition>
                 </SwitchTransition>
-             <button onClick={() => handleArrowClick('forward')}><img src={rightArrowIcon} className={styles['arrow-icon']} alt="next project"/></button>
+             <button onClick={() => handleArrowClick('forward')} className={styles['nav-btn-next']}><img src={rightArrowIcon} className={styles['arrow-icon']} alt="next project"/></button>
         </div>
     );
 }

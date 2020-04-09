@@ -42,3 +42,35 @@
     grid-area: 6 / 9 / span 1 / span 2;
     background-color: rgba(227, 233, 233, 0.8);
 }
+
+@media only screen and (max-width: 768px) {
+    .tabWindow {
+        grid-area: 1 / 1 / span 8 / span 13;
+        flex-direction: column;
+    }
+
+    .tab {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.75rem;
+        cursor: pointer;
+    }
+
+    .aboutMe {
+        grid-area: 9 / 1 / span 5 / span 5;
+    }
+    .projects {
+        grid-area: 11 / 6 / span 3 / span 3;
+    }
+    
+    .resume {
+        grid-area: 9 / 7 / span 2 / span 2;
+    }
+    
+    .contact {
+        grid-area: 9 / 6 / span 2 / span 1;
+    }
+    
+}

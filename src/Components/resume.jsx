@@ -7,7 +7,8 @@ export default function Resume () {
 
     return (
         <div className={styles.content}>
-            <object data={resume} className={styles['resume-pdf']}/>
+            <iframe src={resume} className={styles['resume-pdf']}/>
+            {/* <object data={resume} className={styles['resume-pdf']}/> */}
         </div>
     )
 }

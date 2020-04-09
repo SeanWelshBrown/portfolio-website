@@ -42,10 +42,9 @@
 
 .content {
     height: 100%;
-    margin: 0 100px;
+    margin: 0 5rem;
     flex: 1;
     align-self: flex-start;
-    overflow: auto;
 }
 
 .project-name {
@@ -95,4 +94,32 @@
     to {
         opacity: 1;
     }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .content {
+        margin: 0 3rem;
+    }
+
+    .description {
+        padding-bottom: 1rem;
+    }
+
+    .project-wrapper {
+        overflow: auto;
+        flex: 1;
+    }
+
+    .nav-btn-previous, .nav-btn-next {
+       height: 100%;
+       position: fixed;
+    }
+
+    .nav-btn-next {
+        right: 0;
+    }
+
+
 }
