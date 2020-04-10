@@ -1,12 +1,8 @@
 .resume-pdf {
     height:  90%;
-    width: 80%;
+    width: 75%;
 }
 
-.resume-pdf #document {
-    height: 100%;
-    width: 100%;
-}
 
 .content {
     height: 100%;
